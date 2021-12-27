@@ -7,8 +7,10 @@ import {
   Route,
 } from "react-router-dom";
 
+import Falsies from './Falsies';
 import Navbarmenu from './Navbarmenu';
 
+import Cart from './components/Cart'
 
 class App extends React.Component {
   render() {   
@@ -20,6 +22,8 @@ class App extends React.Component {
             <Route exact path="/">
               <Home />
             </Route>
+            <Route exact path="/falsies" component={Falsies} />
+            <Route exact path="/cart" component={Cart} />
           </Switch>          
       </Router>      
     </div>)
