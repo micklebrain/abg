@@ -64,15 +64,10 @@ function Home() {
           Instagram: @kathyyymm
           </li>
         </ul>
-        <h2> Lashes </h2>
-        https://houseoflashes.com/
 
         <h2> Nails </h2>
         https://staticnails.com/
-
-        <h2> Tatoos </h2>
-        <h2>Upcoming Festivals</h2>        
-        <div> Get in for free at these festivals </div>
+              
       </div>
     );
   }
